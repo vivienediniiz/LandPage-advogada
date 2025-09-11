@@ -124,8 +124,6 @@ section-1 {
     align-items: center;
     flex-direction: column;
     justify-content: center;
-  	display: flex;
-    align-items: center;
     padding: 50px;
     gap: 30px;
     background: #ff0000;

@@ -1,0 +1,242 @@
+:root{
+    --cor1: #B95E5E;
+    --cor2: #B95E5E;
+    --cor3: #333333;
+    --background: #F6F1E6;
+
+    --font-principal: "Playfair Display", sans-serif;  
+    --font-secundaria: "poppins", sans-serif;
+    --font-paragrafos: "Inter", sans-serif;
+
+}
+
+
+@media(max-width:480px){
+
+.retangulo-topo {
+  height: 15px;
+}
+
+main {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+}
+
+.info-principal {
+    display: flex;
+    flex-direction: column;
+  padding: 0 5px;
+  text-align: center;
+}
+
+.advocacia-de-famlia {
+  width: 100%;
+  font-size: 28px;
+  line-height: 38px;
+  height: auto;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Playfair Display';
+background: linear-gradient(74deg, rgba(84, 3, 3, 1) 0%, rgba(240, 14, 14, 1) 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+text-align: left;
+}
+
+.meu-compromisso {
+  width: 100%;
+  font-size: 16px;
+  text-align: center;
+  height: auto;
+  font-size: 16px;
+font-family: Inter;
+color: #000;
+text-align: left;
+display: inline-block;
+height: 71px;
+margin-bottom: 20px;
+}
+
+.images-1 {
+  width: 100%;
+}
+
+#logo {
+
+  width: 15%;
+}
+
+#button {
+  position: relative;
+    padding: 5px;
+  	border-radius: 10px;
+  	background: #540303;
+    background: linear-gradient(74deg, rgba(84, 3, 3, 1) 0%, rgba(240, 14, 14, 1) 100%);
+  	height: 45px;
+    border: none;
+    color: var(--background);
+    margin-top: 35px;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+#button.animar {
+  background: #f03838;
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Section 1 */
+section-1 {
+     display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    gap: 30px;
+    background: #ff0000;
+  
+}
+
+.eu-entendo-o {
+  	font-size: 24px;
+  	line-height: 24px;
+  	font-family: 'Playfair Display';
+  	color: var(--background);
+  	text-align: center;
+  	height: 20px;
+  	margin-bottom: 40px;
+  	
+}
+
+.questes-de-famlia-container {
+  
+  width: 100%;
+  font-size: 16px;
+  font-family: Inter;
+  color: #f8f5f5;
+  text-align: left;
+  font: 600;
+}
+
+/* Imagens em coluna */
+.images {
+    display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+.images-geral {
+  width: 100%;
+  max-width: 150px;
+}
+
+/* Section 2 */
+section-2 {
+  padding: 40px 20px;
+}
+
+.como-posso-ajudar {
+  font-size: 26px;
+  line-height: 36px;
+  height: auto;
+}
+
+.cards {
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
+
+.card-1, .card-2, .card-3, .card-4, .card-5, .card-6 {
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  padding: 15px;
+}
+
+/* Section 3 */
+section-3 {
+  flex-direction: column;
+  padding: 20px;
+  text-align: center;
+}
+
+.aliada {
+  width: 100%;
+  gap: 20px;
+}
+
+#img-3 {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.titulo {
+  font-size: 26px;
+}
+
+.paragrafo {
+  width: 100%;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* Section 4 */
+section-4 {
+  padding: 40px 20px;
+}
+
+.scroll-container {
+  overflow-x: auto;
+  gap: 15px;
+}
+
+.depo {
+  width: 220px;
+  height: auto;
+  font-size: 12px;
+  padding: 20px;
+}
+
+/* Section 5 */
+section-5 {
+  padding: 40px 20px;
+  gap: 30px;
+}
+
+.paragrafo-2 {
+  font-size: 16px;
+  text-align: center;
+}
+
+#button-2 {
+  width: 80%;
+  font-size: 14px;
+}
+
+/* Contato */
+.contato-geral {
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px 20px;
+}
+
+.name-1, .contato, .localizacao {
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  padding: 20px;
+}
+
+}
