@@ -36,7 +36,9 @@ main{
     background-size: 100%; /* reduz a imagem */
   
   
-
+.imagem-mobile{
+  display: none;
+}
   
     
 }

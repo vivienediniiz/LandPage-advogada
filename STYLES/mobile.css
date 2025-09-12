@@ -14,11 +14,15 @@
 @media(max-width:480px){
 
 .retangulo-topo {
-  height: 15px;
+position: relative;
+background: rgba(240, 14, 14, 1);
+background: linear-gradient(74deg,rgba(240, 14, 14, 1) 100%, rgba(84, 3, 3, 1) 0%, );
+height: 20px;
 }
 
+
 main {
-  flex-direction: column;
+  flex-direction: column-reverse;
   justify-content: center;
   align-items: center;
   padding: 20px;
@@ -27,11 +31,25 @@ main {
   height: auto;
 }
 
+
+ .imagem-mobile {
+    position: absolute;
+        display: block; /* A imagem passa a ser visível */
+        width: 100%;    /* Opcional: faz a imagem ocupar 100% da largura do contêiner */
+        height: auto;   /* Opcional: mantém a proporção da imagem */
+        background-size: cover; /* ESSENCIAL: Faz a imagem cobrir todo o elemento */
+        align-items: center;
+        justify-content: center;
+        
+    }
+
 .info-principal {
+    position: relative;
     display: flex;
     flex-direction: column;
   padding: 0 5px;
   text-align: center;
+  margin-top: 200px;
 }
 
 .advocacia-de-famlia {
@@ -81,10 +99,11 @@ margin-bottom: 20px;
     border: none;
     color: var(--background);
     margin-top: 35px;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 600;
     transition: all 0.3s ease;
     cursor: pointer;
+    margin-bottom: 40px;
 }
 
 #button.animar {
@@ -101,18 +120,19 @@ section-1 {
     justify-content: center;
     padding: 20px;
     gap: 30px;
-    background: #ff0000;
+    background: linear-gradient(74deg, rgba(84, 3, 3, 1) 0%, rgba(240, 14, 14, 1) 100%);
   
 }
 
 .eu-entendo-o {
+    width: 100%;
+    margin-top: 25px;
   	font-size: 24px;
-  	line-height: 24px;
   	font-family: 'Playfair Display';
   	color: var(--background);
-  	text-align: center;
-  	height: 20px;
-  	margin-bottom: 40px;
+    font-weight: 600;
+   
+  	
   	
 }
 
@@ -396,7 +416,7 @@ margin-bottom: 20px;
     border: none;
     color: var(--background);
     margin-top: 35px;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 600;
     transition: all 0.3s ease;
     cursor: pointer;
@@ -418,7 +438,7 @@ margin-bottom: 20px;
 
     .icons img{
      
-        width: 12%;
+        width: 9%;
     
     }
 
