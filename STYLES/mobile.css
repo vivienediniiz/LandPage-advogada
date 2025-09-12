@@ -348,11 +348,18 @@ background: linear-gradient(74deg, rgba(84, 3, 3, 1) 0%, rgba(240, 14, 14, 1) 10
 .scroll-container {
   display: flex;
   gap: 20px;
-  overflow: hidden;
+  overflow: scroll;
   padding: 20px;
   max-width: 100vw; /* garante que haja overflow horizontal */
+   /* As 3 linhas abaixo são para ESCONDER a barra de rolagem */
+  scrollbar-width: none; /* Para Firefox */
+  -ms-overflow-style: none; /* Para IE e Edge */
 }
 
+/* Esconde a barra de rolagem para Chrome, Safari e Opera */
+.scroll-container::-webkit-scrollbar {
+  display: none;
+}
 .depo {
   flex: 0 0 auto;
   width: 280px;
@@ -402,7 +409,7 @@ color: #000;
 text-align: left;
 display: inline-block;
 
-margin-bottom: 20px;
+margin-bottom: 5px;
 }
 
 #button-2 {
@@ -415,7 +422,7 @@ margin-bottom: 20px;
   	height: 45px;
     border: none;
     color: var(--background);
-    margin-top: 35px;
+    margin-top: 10px;
     font-size: 1.1rem;
     font-weight: 600;
     transition: all 0.3s ease;
@@ -493,6 +500,9 @@ h3{
       font-size: inter;
       color: #333;
     }
-
-
 }
+
+
+
+
+
