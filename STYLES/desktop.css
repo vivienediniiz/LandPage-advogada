@@ -34,12 +34,12 @@ main{
     background-repeat: no-repeat;
     background-position: right center; /* esquerda e centralizada na vertical */
     background-size: 100%; /* reduz a imagem */
-  
-  
-.imagem-mobile{
-  display: none;
 }
   
+  
+.img-mobile{
+  display: none;
+}
     
 }
 

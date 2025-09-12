@@ -32,7 +32,7 @@ main {
 }
 
 
- .imagem-mobile {
+ .img-mobile {
     position: absolute;
         display: block; /* A imagem passa a ser visível */
         width: 100%;    /* Opcional: faz a imagem ocupar 100% da largura do contêiner */
