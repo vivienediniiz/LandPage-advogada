@@ -37,10 +37,8 @@ main{
 }
   
   
-.img-mobile{
+.imagem-mobile{
   display: none;
-}
-    
 }
 
 .info-principal{
@@ -521,5 +519,9 @@ section-4{
       justify-content: center;
       padding: 40px;
     }
-
+    
 }
+
+
+
+
