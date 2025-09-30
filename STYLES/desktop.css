@@ -19,9 +19,10 @@
 
 .retangulo-topo {
 position: relative;
-background: rgba(240, 14, 14, 1);
-background: linear-gradient(74deg,rgba(240, 14, 14, 1) 100%, rgba(84, 3, 3, 1) 0%, );
+background: rgb(192, 24, 24);
+background: linear-gradient(90deg,rgba(240, 14, 14, 1) 100%, rgba(84, 3, 3, 1) 0%, );
 height: 20px;
+width: 100%;
 }
 
 main{
@@ -30,6 +31,7 @@ main{
     justify-content: space-between;
      width: 100%;
     height: 100vh;
+    
     
 }
 .imagem-principal{

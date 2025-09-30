@@ -11,13 +11,14 @@
 }
 
 
-@media(max-width:480px){
+@media (max-width:480px){
 
 .retangulo-topo {
 position: relative;
 background: rgba(240, 14, 14, 1);
 background: linear-gradient(74deg,rgba(240, 14, 14, 1) 100%, rgba(84, 3, 3, 1) 0%, );
 height: 20px;
+width: 100%;
 }
 
 
@@ -25,7 +26,6 @@ main {
   flex-direction: column-reverse;
   justify-content: center;
   align-items: center;
-  padding: 20px;
   background-size: cover;
   background-position: center;
   height: auto;
@@ -33,19 +33,11 @@ main {
 
 .imagem-principal{
   display: none;
+  
 }
 
 
- .imagem-mobile {
-    position: absolute;
-        display: block; /* A imagem passa a ser visível */
-        width: 100%;    /* Opcional: faz a imagem ocupar 100% da largura do contêiner */
-        height: auto;   /* Opcional: mantém a proporção da imagem */
-        background-size: cover; /* ESSENCIAL: Faz a imagem cobrir todo o elemento */
-        align-items: center;
-        justify-content: center;
-        
-    }
+ 
 
 .info-principal {
     position: relative;
@@ -53,7 +45,7 @@ main {
     flex-direction: column;
   padding: 0 5px;
   text-align: center;
-  margin-top: 200px;
+  
 }
 
 .advocacia-de-famlia {
