@@ -29,11 +29,16 @@ main {
   background-size: cover;
   background-position: center;
   height: auto;
+  margin-top: -60px;
 }
 
 .imagem-principal{
   display: none;
   
+}
+
+.imagem-mobile{
+  width: 100%;
 }
 
 
@@ -43,37 +48,36 @@ main {
     position: relative;
     display: flex;
     flex-direction: column;
-  padding: 0 5px;
+  padding: 0 15px;
   text-align: center;
+  gap: 30px;
   
 }
 
 .advocacia-de-famlia {
   width: 100%;
-  font-size: 28px;
-  line-height: 38px;
-  height: auto;
+  font-size: 32px;
+  line-height: 40px;
   justify-content: center;
   text-align: center;
   font-family: 'Playfair Display';
-background: linear-gradient(74deg, rgba(84, 3, 3, 1) 0%, rgba(240, 14, 14, 1) 100%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-text-align: left;
+  background: linear-gradient(74deg, rgba(84, 3, 3, 1) 0%, rgba(240, 14, 14, 1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: left;
 }
 
 .meu-compromisso {
   width: 100%;
-  font-size: 16px;
   text-align: center;
   height: auto;
-  font-size: 16px;
+  font-size: 20px;
 font-family: Inter;
 color: #000;
 text-align: left;
 display: inline-block;
 height: 71px;
-margin-bottom: 20px;
+margin-bottom: 30px;
 }
 
 .images-1 {
@@ -135,7 +139,7 @@ section-1 {
 .questes-de-famlia-container {
   
   width: 100%;
-  font-size: 16px;
+  font-size: 20px;
   font-family: Inter;
   color: #f8f5f5;
   text-align: left;
@@ -146,7 +150,7 @@ section-1 {
 .images {
     display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 25px;
+  gap: 5px;
   
 }
 
@@ -288,14 +292,7 @@ section-3{
   
 }
 
-.titulo-2 {
-  font-size: 28px;
-  font-family: 'Playfair Display';
-background: linear-gradient(74deg, rgba(84, 3, 3, 1) 0%, rgba(240, 14, 14, 1) 100%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
 
-}
 
 .paragrafo {
   width: 100%;
@@ -332,7 +329,16 @@ section-4{
 }
 
 .titulo{
-    padding: 20px;
+   
+     font-size: 28px;
+  font-family: 'Playfair Display';
+background: linear-gradient(74deg, rgba(84, 3, 3, 1) 0%, rgba(240, 14, 14, 1) 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.titulo-2{
+   padding: 20px;
      font-size: 28px;
   font-family: 'Playfair Display';
 background: linear-gradient(74deg, rgba(84, 3, 3, 1) 0%, rgba(240, 14, 14, 1) 100%);

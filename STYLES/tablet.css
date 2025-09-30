@@ -11,7 +11,7 @@
 }
 
 
-@media (max-width:1024px){
+@media (min-width:481px) and (max-width:1024px){
 
 .retangulo-topo {
 position: relative;
@@ -36,7 +36,7 @@ main {
  .imagem-mobile {
     position: absolute;
         display: block; /* A imagem passa a ser visível */
-        width: 80%;    /* Opcional: faz a imagem ocupar 100% da largura do contêiner */
+        width: 100%;    /* Opcional: faz a imagem ocupar 100% da largura do contêiner */
         height: auto;   /* Opcional: mantém a proporção da imagem */
         background-size: cover; /* ESSENCIAL: Faz a imagem cobrir todo o elemento */
         align-items: center;
@@ -64,7 +64,7 @@ main {
 .advocacia-de-famlia {
   width: 100%;
   font-size: 50px;
-  line-height: 55px;
+  line-height: 60px;
   height: auto;
   justify-content: center;
   text-align: center;
@@ -77,7 +77,7 @@ text-align: left;
 
 .meu-compromisso {
   width: 100%;
-  font-size: 30px;
+  font-size: 34px;
   text-align: center;
   height: auto;
   
@@ -107,7 +107,7 @@ margin-bottom: 20px;
     color: var(--background);
     margin-top: 35px;
     font-size: 1.8rem;
-    font-weight: 500;
+    font-weight: 600;
     transition: all 0.3s ease;
     cursor: pointer;
     margin-bottom: 40px;
@@ -306,6 +306,7 @@ section-3{
 }
 
 .titulo-2 {
+  padding: 20px;
   font-size: 50px;
   font-family: 'Playfair Display';
 background: linear-gradient(74deg, rgba(84, 3, 3, 1) 0%, rgba(240, 14, 14, 1) 100%);
@@ -436,7 +437,7 @@ margin-bottom: 5px;
     color: var(--background);
     margin-top: 10px;
     font-size: 1.8rem;
-    font-weight: 500;
+    font-weight: 600;
     transition: all 0.3s ease;
     cursor: pointer;
 }
@@ -477,9 +478,9 @@ margin-bottom: 5px;
 /* Contato */
 .contato-geral {
     display: flex;
-  flex-direction: column;
+  flex-direction: row;
     align-items: start;
-  gap: 20px;
+  gap: 30px;
   padding: 40px 20px;
 }
 
@@ -507,7 +508,7 @@ h3{
       display: flex;
       align-items: center;
       justify-content: center;
-      padding: 20px;
+      padding: 5px;
       text-align: center;
       font-size: inter;
       color: #333;
