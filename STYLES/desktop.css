@@ -374,6 +374,14 @@ section-4{
 
 }
 
+.titulo-2{
+   padding: 20px;
+     font-size: 28px;
+  font-family: 'Playfair Display';
+background: linear-gradient(74deg, rgba(84, 3, 3, 1) 0%, rgba(240, 14, 14, 1) 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
 
 .scroll-container {
   display: flex;
