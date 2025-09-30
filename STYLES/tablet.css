@@ -11,7 +11,7 @@
 }
 
 
-@media(min-width:768px){
+@media (max-width:1024px){
 
 .retangulo-topo {
 position: relative;
@@ -35,13 +35,20 @@ main {
  .imagem-mobile {
     position: absolute;
         display: block; /* A imagem passa a ser visível */
-        width: 100%;    /* Opcional: faz a imagem ocupar 100% da largura do contêiner */
+        width: 80%;    /* Opcional: faz a imagem ocupar 100% da largura do contêiner */
         height: auto;   /* Opcional: mantém a proporção da imagem */
         background-size: cover; /* ESSENCIAL: Faz a imagem cobrir todo o elemento */
         align-items: center;
         justify-content: center;
+        margin-left: 130px;
         
     }
+
+    .imagem-principal{
+      display: none;
+    }
+
+   
 
 .info-principal {
     position: relative;
@@ -49,7 +56,7 @@ main {
     flex-direction: column;
   padding: 0 5px;
   text-align: center;
-  margin-top: 300px;
+  margin-top: 350px;
   gap:30px;
 }
 
@@ -292,7 +299,8 @@ section-3{
 
 #img-3 {
     display: flex;
-  width: 100%;
+    
+  
   
 }
 

@@ -31,6 +31,10 @@ main {
   height: auto;
 }
 
+.imagem-principal{
+  display: none;
+}
+
 
  .imagem-mobile {
     position: absolute;
